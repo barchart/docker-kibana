@@ -4,7 +4,7 @@
 # docker-build properties:
 # TAG=barchart/kibana:latest
 
-FROM barchart/java
+FROM barchart/base
 MAINTAINER Jeremy Jongsma "jeremy@barchart.com"
 
 # Download version 1.4.2 of kibana
